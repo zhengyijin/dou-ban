@@ -1,0 +1,194 @@
+@import 'common.css';
+
+/* 登录/注册样式 开始 */
+
+.main {
+    width: 280px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.main .account-body {
+    height: 266px;
+    background: transparent;
+}
+
+.main .account-body .saomaleft {
+    line-height: 28px;
+    position: absolute;
+    top: 2px;
+    right: 35px;
+    font-size: 13px;
+    border: 1px solid rgba(66, 189, 86, .3);
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 0 5px;
+}
+
+.saoma:hover+.saomaleft {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.main .account-body .saoma {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    background: url('../img/saoma.png') no-repeat left top/100% 100%;
+}
+
+.main .account-body .one {
+    margin-top: 30px;
+    border-bottom: 1px solid #ececec;
+    height: 20px;
+    padding-bottom: 10px;
+    font-size: 13px;
+    color: #9b9b9b;
+}
+
+.account-body .span1,
+.account-body .span2 {
+    cursor: pointer;
+    width: 50%;
+    text-align: center;
+}
+
+.main .account-body .select {
+    display: inline-block;
+    height: 100%;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    font-weight: 600;
+    color: #333333;
+}
+
+.account-body .two {
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.account-body .two span {
+    color: #9b9b9b;
+}
+
+.account-body .two a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #41ac52;
+}
+
+.account-body .thirt,
+.account-body .fourt {
+    border: 1px solid #e4e6e5;
+    position: relative;
+    height: 33px;
+    background-color: white;
+}
+
+.account-body .thirt>span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 55px;
+    text-align: center;
+    margin-top: 6px;
+    border-right: 1px solid #e4e6e5;
+    cursor: pointer;
+}
+
+.account-body .thirt>input {
+    width: 78%;
+    height: 33px;
+    border: none;
+    outline: none;
+}
+
+.account-body .fourt {
+    margin-top: 10px;
+}
+
+.account-body .fourt input,
+.account-body .fourt button {
+    line-height: 33px;
+    border: none;
+    outline: none;
+}
+
+.account-body .fourt input {
+    width: 70%;
+    text-indent: 10px;
+}
+
+.account-body .fourt button {
+    width: 30%;
+    background-color: #fff;
+    cursor: pointer;
+    color: #41ac52;
+}
+
+.account-body .firt {
+    width: 100%;
+    margin-top: 10px;
+    height: 34px;
+}
+
+.account-body .firt button {
+    background-color: rgba(66, 189, 86, .5);
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+.account-body .six {
+    margin-top: 15px;
+    color: #333;
+    font-size: 13px;
+}
+
+.account-body .six input,
+.account-body .six label,
+.account-body .six button {
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.account-body .six button {
+    background-color: #fff;
+    color: #41ac52;
+    border: none;
+    outline: none;
+    font-size: 13px;
+}
+
+.account-body .seven {
+    width: 250px;
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #e4e6e5;
+}
+
+.account-body .seven span {
+    color: #9b9b9b;
+    font-size: 11px;
+}
+
+.account-body .seven img {
+    width: 22px;
+    height: 22px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+
+/* 登录/注册样式 结束 */
