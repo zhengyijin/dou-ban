@@ -152,7 +152,6 @@
 .app-left1 img {
     height: 28px;
     width: 28px;
-
 }
 
 .app-left1 button {
@@ -172,9 +171,12 @@
     margin-top: 20px;
 }
 
+
 /* 登录区域样式 结束 */
 
+
 /* 新闻区域样式 开始 */
+
 .new-content {
     margin-top: 10px;
 }
@@ -209,7 +211,6 @@
 .title-top span:nth-child(2) a {
     text-decoration: none;
     color: #37a;
-
 }
 
 .title-top span:nth-child(2) {
@@ -226,5 +227,14 @@
     background-color: #37a;
     color: #ffffff;
 }
+
+.new .new-content .img-list ul li {
+    list-style: none;
+    float: left;
+    width: 170px;
+    margin-top: 12px;
+    font-size: 12px;
+}
+
 
 /* 新闻区域样式 结束 */
