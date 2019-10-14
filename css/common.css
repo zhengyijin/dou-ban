@@ -33,7 +33,9 @@
 .inline-block{
     display: inline-block;
 }
-
+ul li{
+    list-style: none;
+}
 
 body {
     height: 99999px;

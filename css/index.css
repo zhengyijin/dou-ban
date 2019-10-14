@@ -176,6 +176,10 @@
 
 
 /* 新闻区域样式 开始 */
+.new {
+    margin-bottom: 50px;
+    background-color: #fff;
+}
 
 .new-content {
     margin-top: 10px;
@@ -305,5 +309,74 @@
 /* 新闻区域样式 结束 */
 
 /* 豆瓣时间区域样式 开始 */
+.time {
+    background-color: #f7f7f7;
+    padding: 40px 0 20px;
+}
+
+.item-list ul li {
+    width: 100px;
+    vertical-align: top;
+    margin-right: 60px;
+    margin-bottom: 30px;
+    list-style: none
+}
+
+.item-list ul li a img {
+    height: 141px;
+}
+
+.item-list ul li:nth-child(5n) {
+    margin-right: 0;
+
+}
+
+.item-list {
+    margin-top: 12px;
+    margin-left: 100px;
+}
+
+.item-list ul li p a {
+    color: #333333;
+    font-size: 13px;
+    line-height: 1.38
+}
+
+.item-list ul li span {
+    color: #999999;
+    line-height: 1;
+    margin-top: 10px;
+    font-size: 12px;
+}
 
 /* 豆瓣时间区域样式 结束 */
+
+/* 视频区域样式 开始 */
+.movie .movie-list ul li>a {
+    display: inline-block;
+    width: 250px;
+    height: 140px;
+    background: url('../img/y1.jpg') no-repeat center/100% 100%;
+}
+
+.movie .movie-list {
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+.movie {
+    padding: 10px 0;
+    margin-bottom: 30px;
+}
+
+.movie .movie-list ul li>p>a {
+    font-size: 13px;
+    line-height: 1.54;
+    color: 494949;
+}
+
+.movie .movie-list ul li {
+    margin-right: 30px;
+}
+
+/* 视频区域样式 结束 */
