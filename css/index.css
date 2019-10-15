@@ -176,6 +176,7 @@
 
 
 /* 新闻区域样式 开始 */
+
 .new {
     margin-bottom: 50px;
     background-color: #fff;
@@ -307,7 +308,9 @@
 
 /* 新闻区域样式 结束 */
 
+
 /* 豆瓣时间区域样式 开始 */
+
 .time {
     background-color: #f7f7f7;
     padding: 40px 0 20px;
@@ -327,7 +330,6 @@
 
 .item-list ul li:nth-child(5n) {
     margin-right: 0;
-
 }
 
 .item-list {
@@ -348,9 +350,12 @@
     font-size: 12px;
 }
 
+
 /* 豆瓣时间区域样式 结束 */
 
+
 /* 视频区域样式 开始 */
+
 .movie .movie-list ul li>a {
     display: inline-block;
     width: 250px;
@@ -378,9 +383,12 @@
     margin-right: 30px;
 }
 
+
 /* 视频区域样式 结束 */
 
+
 /* 视频区域样式 开始 */
+
 .movie .movie-list>ul>li:nth-child(1) ul li>a {
     display: inline-block;
     width: 100%;
@@ -396,7 +404,6 @@
 }
 
 .movie .movie-list {
-
     margin-top: 15px;
 }
 
@@ -415,7 +422,6 @@
     margin-right: 30px;
     width: 220px;
 }
-
 
 .movie-list>ul>li>div {
     margin-bottom: 15px;
@@ -438,4 +444,44 @@
     margin-bottom: 15px;
 }
 
+
 /* 视频区域样式 结束 */
+
+
+/* 电影区域样式 开始 */
+
+.public-left {
+    width: 100px;
+    margin-right: 20px;
+}
+
+.public-left h2 a {
+    text-decoration: none;
+    color: #27a;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.public-left h2 {
+    margin-bottom: 15px;
+}
+
+.public-left ul li {
+    line-height: 1.62;
+    margin-top: 5px;
+}
+
+.public-left h2 a:hover {
+    background-color: #37a;
+    color: #fff;
+}
+
+.new-menu::after {
+    content: url('../img/new_menu.gif');
+    position: relative;
+    left: 6px;
+    top: -4px;
+}
+
+
+/* 电影区域样式 结束 */
