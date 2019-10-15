@@ -133,11 +133,8 @@
 .app {
     margin-top: 30px;
     height: 320px;
-    background: url('../img/app_img.jpg');
     background-size: contain;
-    background-position: calc(50% - 305px) top;
-    background-color: #edf4ed;
-    background-repeat: no-repeat;
+    background: #edf4ed url('../img/app_img.jpg') no-repeat calc(50% - 305px) top;
 }
 
 .app-left1 h1 {
@@ -228,14 +225,13 @@
 
 .a-hover:hover {
     text-decoration: none;
-    background-color: #37a;
-    color: #ffffff;
+    background-color: #37a !important;
+    color: #ffffff !important;
 }
 
 .new .new-content .img-list ul li {
     list-style: none;
     width: 150px;
-    margin-top: 12px;
     font-size: 12px;
     margin: 10px 0 10px 10px;
     vertical-align: top;
@@ -402,17 +398,15 @@
 .movie .movie-list ul li>p>a {
     font-size: 13px;
     line-height: 1.54;
-    color: 494949;
+    color: #494949;
 }
 
 .movie .movie-list .ul-list li {
     margin-right: 30px;
-    width: 240px;
+    width: 220px;
 }
 
-.movie-list .ul-list {
-    margin-left: 100px;
-}
+
 
 .movie-list>ul>li>div {
     margin-bottom: 15px;
