@@ -131,10 +131,13 @@
 /* 登录区域样式 开始 */
 
 .app {
-    margin-top: 30px;
-    height: 320px;
+    margin-bottom: 25px;
     background-size: contain;
-    background: #edf4ed url('../img/app_img.jpg') no-repeat calc(50% - 305px) top;
+    background-position: -webkit-calc(50% - 305px) top;
+    background-position: calc(50% - 305px) top;
+    background-repeat: no-repeat;
+    background-color: #edf4ed;
+    background-image: url('../img/app_img.jpg');
 }
 
 .app-left1 h1 {
@@ -378,11 +381,18 @@
 /* 视频区域样式 结束 */
 
 /* 视频区域样式 开始 */
-.movie .movie-list ul li>a {
+.movie .movie-list>ul>li:nth-child(1) ul li>a {
     display: inline-block;
     width: 100%;
     height: 140px;
     background: url('../img/y1.jpg') no-repeat center/100% 100%;
+}
+
+.movie .movie-list>ul>li:nth-child(2) ul li>a {
+    display: inline-block;
+    width: 100%;
+    height: 140px;
+    background: url('../img/u1.jpg') no-repeat center/100% 100%;
 }
 
 .movie .movie-list {
@@ -407,7 +417,6 @@
 }
 
 
-
 .movie-list>ul>li>div {
     margin-bottom: 15px;
 }
@@ -423,6 +432,10 @@
 
 .movie .movie-list .ul-list li p a {
     color: #494949;
+}
+
+.movie .contenter .movie-list ul li {
+    margin-bottom: 15px;
 }
 
 /* 视频区域样式 结束 */
