@@ -22,7 +22,7 @@
     margin: 30px auto 0 auto;
 }
 
-.h2-class{
+.h2-class {
     text-decoration: none;
     font-size: 24px;
     color: #494949;
@@ -30,13 +30,19 @@
     width: 100px;
     display: inline-block;
 }
-.inline-block{
+
+.inline-block {
     display: inline-block;
 }
-ul li{
+
+ul li {
     list-style: none;
 }
 
 body {
     height: 99999px;
+}
+
+body .bgc:nth-child(2n) {
+    background-color: #f7f7f7;
 }
