@@ -312,7 +312,6 @@
 /* 豆瓣时间区域样式 开始 */
 
 .time {
-
     padding: 40px 0 20px;
 }
 
@@ -523,7 +522,6 @@
     display: inline-block;
     background: url(../img/s.png) no-repeat;
     background-position: 6px -11px;
-
 }
 
 #video .video-list ul li div span:nth-child(2) {
@@ -578,5 +576,10 @@
     border-bottom: 1px solid #eaeaea;
     list-style-type: decimal;
 }
+
+#group .contenter .public-left a {
+    color: #017a85;
+}
+
 
 /* 电影区域样式 结束 */
