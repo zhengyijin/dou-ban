@@ -686,8 +686,95 @@
     padding: 10px 0;
 }
 
-#read .contenter .public-left a {
-    color: #007982;
+#read .contenter .public-left ul li a {
+    font-size: 14px;
+}
+
+.color614 {
+    color: #614e3c;
+}
+
+.color614:hover {
+    color: #fff;
+    background-color: #37a;
+}
+
+#read .read-picture {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: url('../img/app_icons.jpg') no-repeat left;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px #999;
+}
+
+#read .public-main {
+    width: 535px;
+}
+
+#read .public-main .sub-ul li {
+    width: 25%;
+    padding: 15px 0px;
+    text-align: center;
+    font-size: 13px;
+    float: left;
+}
+
+#read .public-main .sub-ul li img {
+    width: 100px;
+}
+
+#read .public-main .sub-ul li p:nth-of-type(1) {
+    margin: 8px 0;
+}
+
+
+#read .public-main .sub-ul li p,
+#read .public-main .sub-ul li button {
+    padding: 0 15px;
+    width: auto;
+}
+
+#read .public-main .sub-ul li button {
+    margin: 10px 0;
+    color: #fff;
+    background-color: #999a95;
+    border: none;
+    padding: 3px 7px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#read .public-right {
+    margin-left: 30px;
+    width: 265px;
+}
+
+#read .public-right .right-sub-ul li {
+    float: left;
+    font-size: 12px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+#read .public-right .right-sub-ul li:first-child {
+    width: 34px;
+    color: #999;
+}
+
+#read .public-right .right-sub-ul li a {
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+}
+
+#read .public-right div:nth-of-type(2) {
+    margin-top: 12px;
+}
+
+#read .public-right .right-first-ul>li {
+    border-bottom: 1px solid #eaeaea;
+    margin-bottom: 15px;
 }
 
 /* 读书区域样式 结束 */

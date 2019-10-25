@@ -35,6 +35,14 @@
     display: inline-block;
 }
 
+.over-hide {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+}
+
 ul li {
     list-style: none;
 }
