@@ -584,7 +584,9 @@
 
 /* 电影区域样式 结束 */
 
+
 /* 热门小组区域样式 开始 */
+
 #group {
     padding-bottom: 30px;
 }
@@ -658,7 +660,6 @@
 #group .public-right .public-right-list ul li {
     padding: 2px 0;
     margin-right: 10px;
-
 }
 
 #group .public-right .public-right-list ul li a {
@@ -679,9 +680,12 @@
     margin-top: 10px;
 }
 
+
 /* 热门小组区域样式 结束 */
 
+
 /* 读书区域样式 开始 */
+
 #read {
     padding: 10px 0;
 }
@@ -727,7 +731,6 @@
 #read .public-main .sub-ul li p:nth-of-type(1) {
     margin: 8px 0;
 }
-
 
 #read .public-main .sub-ul li p,
 #read .public-main .sub-ul li button {
@@ -777,4 +780,113 @@
     margin-bottom: 15px;
 }
 
+
 /* 读书区域样式 结束 */
+
+
+/* 音乐区域样式 开始 */
+
+#music .contenter .public-left h2 a {
+    color: #f38c00;
+}
+
+#music .contenter .public-left ul .fm-li,
+#music .contenter .public-left ul .last-li {
+    display: inline-block;
+    width: 100%;
+}
+
+#music .contenter .public-left ul li a {
+    color: #614e3c;
+}
+
+#music .contenter .public-left ul .fm-li i {
+    background: url('../img/app_icons.jpg') no-repeat center;
+    height: 50px;
+    width: 50px;
+}
+
+#music .contenter .public-left ul .last-li i {
+    background: url('../img/app_icons.jpg') no-repeat center;
+    height: 50px;
+    width: 50px;
+    background-position-x: -50px;
+}
+
+#music .contenter .public-left ul li {
+    font-size: 14px;
+}
+
+#music .contenter .public-left ul li a i {
+    margin-top: 10px;
+    display: block;
+}
+
+#music .contenter .public-main {
+    width: 535px;
+}
+
+#music .contenter .music-list ul li {
+    width: 130px;
+}
+
+#music .contenter .music-list ul li div {
+    width: 80px;
+    font-size: 12px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.8;
+}
+
+#music .contenter .music-list ul li a img {
+    width: 100%;
+    margin-top: 30px;
+}
+
+#music .contenter .music-list ul {
+    margin-left: 10px;
+}
+
+#music .contenter .music-list ul li div a {
+    color: #555d53;
+}
+
+#music .contenter .music-list ul li div:last-child i {
+    height: 10px;
+    background: url('../img/s.png') no-repeat center;
+    margin-top: 15px;
+    display: inline-block;
+    width: 56px;
+    margin-right: 7px;
+}
+
+.music-video li div:nth-child(2) {
+    width: auto;
+}
+
+#music .contenter .public-right div:nth-child(2) ol {
+    margin-top: 30px;
+}
+
+#music .contenter .public-right {
+    width: 265px;
+    margin-left: 30px;
+}
+
+#music .contenter .public-right div:nth-child(2) ol li div img {
+    width: 48px;
+    height: 48px;
+}
+
+#music .contenter .public-right div:nth-child(2) ol li div:nth-child(2) {
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+#music .contenter .public-right div:nth-child(2) ol li div:nth-child(2) a,
+#music .contenter .public-right div:nth-child(2) ol li div:nth-child(2) p {
+    line-height: 1.8;
+}
+
+
+/* 音乐区域样式 结束 */
