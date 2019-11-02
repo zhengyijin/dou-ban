@@ -52,11 +52,9 @@ ul li {
 }
 
 body {
-    height: 9199px;
     min-width: 1024px;
 }
 
 body .bgc:nth-child(2n) {
     background-color: #f7f7f7;
 }
-
